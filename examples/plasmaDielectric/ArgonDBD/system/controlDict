@@ -40,7 +40,7 @@ deltaTMin	1e-10;
 
 writeControl    runTime;
 
-writeInterval   1E-9;
+writeInterval   1E-10;
 
 purgeWrite      0;
 
@@ -67,7 +67,7 @@ DebugSwitches
 {
     dimensionSet    0;
     blockLduMatrix 1;
-    coupledLduMatrix 0;
+    //coupledLduMatrix 0;
 }
 
 functions
